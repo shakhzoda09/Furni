@@ -1,0 +1,234 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container{
+  width: 90%;
+}
+.navbar-brand{
+  margin-right: 600px;
+  color: white;
+}
+.navbar-nav a{
+  margin: 10px;
+  color: white;
+}
+.container-fluid{
+  background-color:rgb(54, 96, 79);
+}
+.main{
+  width: 100%;
+  height: 500px;
+  background-color: rgb(54, 96, 79);
+  display: flex;
+}
+.box1{
+  width: 50%;
+  margin-top: 70px;
+  margin-left: 70px;
+  color: white;
+}
+.box1 h1{
+  font-size: 50px;
+}
+p{
+  font-size: 15px;
+}
+.box2{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  padding-right: 50px;
+}
+.armchair{
+  display: flex;
+  height: 700px;
+  background-color: rgb(255, 250, 247);
+}
+.chair1{
+  width: 30%;
+  padding-top: 70px;
+  padding-left: 70px;
+}
+.chair2{
+  width: 60%;
+  display: flex;
+  padding-top: 70px;
+}
+.chair2 div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.finish{
+  width: 100%;
+  height: 500px;
+  background-color:rgb(255, 250, 247) ;
+  display: flex;
+}
+.finish h6{
+  font-weight: 600;
+}
+.inner1{
+  width: 60%;
+  padding-left: 70px;
+}
+.column2{
+  padding-left: 20px;
+}
+.inner2{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgbacground{
+  width: 400px;
+  height: 450px;
+  background-image: url(https://untree.co/demos/furni/images/why-choose-us-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.in2{
+  width: 100%;
+  display: flex;
+}
+.container {
+  width: 80%;
+}
+.main1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.main1 .a {
+  height: 300px;
+  display: flex;
+  background-color: rgb(247, 245, 245);
+  padding: 25px;
+}
+.main1 .b {
+  height: 300px;
+  background-color: rgb(228, 221, 221);
+  flex-direction: column;
+  text-align: center;
+  padding: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.d {
+  height: 300px;
+  background-color: rgb(229, 79, 10);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.e {
+  height: 300px;
+  background-color: white;
+}
+.e .left {
+  float: left;
+  padding: 8px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f {
+  height: 300px;
+  background-color: blueviolet;
+  flex-direction: column;
+  text-align: center;
+  grid-row: 1/2;
+  grid-column: 3/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.g {
+  background-color: rgb(237, 229, 229);
+  height: 300px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h {
+  height: 300px;
+  background-color: rgb(189, 231, 240);
+  flex-direction: column;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main3 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.j {
+  height: 230px;
+  background-color: aqua;
+  flex-direction: column;
+  color: white;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.k {
+  height: 230px;
+  background-color: rgb(251, 248, 248);
+  flex-direction: column;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.k .popular {
+  background-color: greenyellow;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.l {
+  height: 230px;
+  background-color: rgb(28, 27, 27);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
